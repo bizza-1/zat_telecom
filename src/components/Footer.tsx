@@ -10,11 +10,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 pb-12 border-b" style={{ borderColor: "#2A2A2A" }}>
           {/* Column 1 */}
           <div>
-            <div className="relative w-40 h-12 overflow-hidden mb-4" aria-label="ZAT Telecom">
+            <div className="w-40 h-12 overflow-hidden mb-4" aria-label="ZAT Telecom">
               <img
                 src={logo}
                 alt="ZAT Telecom"
-                className="absolute left-1/2 top-1/2 w-[190px] max-w-none -translate-x-1/2 -translate-y-1/2"
+                className="h-full w-full object-cover object-center"
               />
             </div>
             <p className="text-sm leading-relaxed mb-6" style={{ color: "#999999", fontFamily: "var(--font-body)" }}>

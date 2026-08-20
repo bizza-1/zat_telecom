@@ -58,11 +58,11 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 md:h-[68px]">
             {/* Logo */}
             <Link to="/" className="flex items-center flex-shrink-0" aria-label="ZAT Telecom home">
-              <div className="relative h-9 w-36 overflow-hidden sm:h-10 sm:w-40" aria-hidden="true">
+              <div className="h-9 w-36 overflow-hidden sm:h-10 sm:w-40" aria-hidden="true">
                 <img
                   src={logo}
                   alt=""
-                  className="absolute left-1/2 top-[-65px] w-[176px] max-w-none -translate-x-1/2 sm:top-[-74px] sm:w-[198px]"
+                  className="h-full w-full object-cover object-center"
                 />
               </div>
             </Link>
