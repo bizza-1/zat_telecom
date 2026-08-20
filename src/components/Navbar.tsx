@@ -58,7 +58,18 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 md:h-[68px]">
             {/* Logo */}
             <Link to="/" className="flex items-center flex-shrink-0" aria-label="ZAT Telecom home">
-              <div className="relative w-36 h-11 overflow-hidden sm:w-40" aria-hidden="true">
+              <div className="flex sm:hidden items-center gap-2" aria-hidden="true">
+                <span
+                  className="grid h-9 w-9 place-items-center rounded-lg text-base font-extrabold text-white"
+                  style={{ background: "#FF6115", fontFamily: "var(--font-display)" }}
+                >
+                  Z
+                </span>
+                <span className="text-sm font-extrabold tracking-tight" style={{ fontFamily: "var(--font-display)" }}>
+                  ZAT TELECOM
+                </span>
+              </div>
+              <div className="relative hidden h-11 w-36 overflow-hidden sm:block sm:w-40" aria-hidden="true">
                 <img
                   src={logo}
                   alt=""
