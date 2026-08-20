@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import { useStore } from "../context/StoreContext";
-import logo from "../assets/zat-telecom-logo1.png";
+import logo from "../assets/ChatGPT_Image_Aug_15__2026__09_46_59_AM-removebg-preview (1).png";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -58,22 +58,11 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 md:h-[68px]">
             {/* Logo */}
             <Link to="/" className="flex items-center flex-shrink-0" aria-label="ZAT Telecom home">
-              <div className="flex sm:hidden items-center gap-2" aria-hidden="true">
-                <span
-                  className="grid h-9 w-9 place-items-center rounded-lg text-base font-extrabold text-white"
-                  style={{ background: "#FF6115", fontFamily: "var(--font-display)" }}
-                >
-                  Z
-                </span>
-                <span className="text-sm font-extrabold tracking-tight" style={{ fontFamily: "var(--font-display)" }}>
-                  ZAT TELECOM
-                </span>
-              </div>
-              <div className="relative hidden h-11 w-36 overflow-hidden sm:block sm:w-40" aria-hidden="true">
+              <div className="relative h-10 w-32 overflow-hidden rounded-md bg-black sm:h-11 sm:w-40" aria-hidden="true">
                 <img
                   src={logo}
                   alt=""
-                  className="absolute left-1/2 top-1/2 w-[168px] max-w-none -translate-x-1/2 -translate-y-1/2 sm:w-[188px]"
+                  className="absolute left-1/2 top-[-58px] w-[160px] max-w-none -translate-x-1/2 sm:top-[-68px] sm:w-[188px]"
                 />
               </div>
             </Link>
