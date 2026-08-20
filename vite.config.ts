@@ -3,7 +3,11 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from 'node:path'
 
-import siteConfiguration from './.figma/make/site.json'
+const siteConfiguration: FigmaSiteConfiguration = {
+  title: 'ZAT Telecom',
+  description: 'Quality phones, accessories, and spare parts in Nigeria.',
+  language: 'en',
+}
 
 // Vite config — https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
