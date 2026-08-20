@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import { useStore } from "../context/StoreContext";
-import logo from "../assets/zat-logo.png";
+import logo from "../assets/zat-logo-LAvZE1PK.png";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
