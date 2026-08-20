@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useStore } from "../context/StoreContext";
-import logo from "../assets/zat-logo-LAvZE1PK.png";
+import logo from "../assets/zat-logo.png";
 
 export default function Footer() {
   const { settings } = useStore();
